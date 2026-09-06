@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    gap: 3em;
+    padding: 3em;
+    height: 100vh;
+    background: #0f2044;
+}
+
+.left-section {
+    flex-grow: 1;
+    background: #a9d6d1;
+}
+
+.right-section {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 10em;
+    background: #f2c9a4;
+    padding: 1em;
+}
+
+.item {
+    height: 100px;
+    background: #4a90d9;
+}
